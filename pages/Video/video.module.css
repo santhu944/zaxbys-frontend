@@ -1,0 +1,8 @@
+.video-container video::-webkit-media-controls-start-playback-button,
+.video-container video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+.video-container video::-webkit-media-controls {
+  display: none;
+}

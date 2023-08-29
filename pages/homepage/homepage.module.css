@@ -1,0 +1,41 @@
+/* homepage.module.css */
+
+.cardContainerCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px;
+    margin: 0 auto; /* Center the container itself horizontally */
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .smallFont {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .halfPageBackground {
+    background-color: blue; /* Set the desired background color */
+    width: 100%; /* Cover the entire width of the viewport */
+    height: 50vh; /* Set the height to 50% of the viewport height */
+    position: fixed; /* Position it as a fixed element */
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Place it behind other content */
+    /* Add any additional styling you want for the background */
+  }

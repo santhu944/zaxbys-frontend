@@ -1,0 +1,39 @@
+/* style.module.css */
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 8px 0;
+  }
+  
+  /* style.module.css */
+.order-button {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

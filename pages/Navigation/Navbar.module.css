@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed; /* Add this line to make the navbar fixed */
+    top: 0; /* Position it at the top of the screen */
+    width: 100%; /* Make it full width */
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Center menu items horizontally */
+    align-items: center; /* Center vertically within the navbar */
+    padding: 1rem 2rem;
+    background-color: #291990;
+    color: white;
+  }
+  
+  .menuIcon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    align-items: center; /* Center menu items vertically */
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  /* Adjust font size for menu items */
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    text-align: center; /* Center menu text horizontally */
+    display: block;
+    padding: 15px 0; /* Add padding for better clickability */
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  /* Add responsive styles for the menu items */
+  @media (max-width: 768px) {
+    .menuIcon {
+      display: flex;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      background-color: #291990;
+      width: 100%;
+      top: 60px;
+      left: 0;
+      text-align: center;
+      z-index: 1;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    /* Adjust styles for the responsive menu items */
+    .menu li {
+      margin: 0;
+    }
+  
+    .menu li a {
+      padding: 15px 0;
+    }
+  }
+  
+  
+  
+  
